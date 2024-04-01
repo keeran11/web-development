@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        .flexing{
+            border: 4px solid black;
+            width: 500px;
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+        .cone{
+            border: 1px solid red;
+            margin: 2px;
+            background-color: blanchedalmond;
+            flex: 1 1 150px;
+        }
+/* maathi ko flex ko laagi aaaba tala ko chai grid ko laagi hai ta */
+        
+            .griding{
+               border: 4px solid black; 
+               display: grid;
+               grid-template-columns: repeat(3, 1fr);
+
+            }
+            .one{
+                border: 1px solid red;
+                margin: 2px;
+                background-color: blanchedalmond;
+            }
+        
+    </style>
+</head>
+<body>
+    <h1>
+        css grids Vs Flexbox
+    </h1>
+    <section>
+        <h2> Flexbox</h2>
+    <div class="flexing">
+        <div class="cone">one</div>
+        <div class="cone">two</div>
+        <div class="cone">three</div>
+        <div class="cone">four</div>
+        <div class="cone">five</div>
+    </div>
+</section>
+<br>
+<section>
+    <h1>
+        grid
+    </h1>
+    <div class="griding">
+        <div class="one">one</div>
+        <div class="one">two</div>
+        <div class="one">three</div>
+        <div class="one">four</div>
+        <div class="one">five</div>
+    </div>
+</section>
+</body>
+</html>
