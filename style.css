@@ -62,6 +62,7 @@ html,body{
     width: 100%;
     background-image:url(static/kiran.jpeg);
     background-size: cover ;
+
 }
 #about{
     height: 40%;
@@ -92,12 +93,79 @@ html,body{
     justify-content: space-between;
 
 }
-#icons{
-    /*  background-color: brown; */
-}
+/* #icons{
+    /*  background-color: brown;
+} */
 #icons i{
     background-color: black;
     color: white;
     padding: 5px;
     border-radius: 50px;
+}
+#work{
+    width: 100%;
+    height: 45%;
+    /* background-color: antiquewhite; */
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#work1{
+    width: 30%;
+    height: 45%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 0 20px;
+}
+#work1 h3{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#work1 i{
+    font-size: 20px;
+}
+#work2{
+    width: 70%;
+    height: 45%;
+    /* background-color: blue; */
+    padding: 0 20px;
+}
+.work2-part1{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    border-bottom: 2px solid black;
+    /* border-left: 2px solid black; */
+
+}
+
+.elem{
+    border-right: 2px solid black;
+    padding: 20px 50px;
+
+}
+.elem h3{
+    font-size: 40px;
+}
+.elem1{
+    padding: 20px 50px;
+}
+.elem1 h3{
+    font-size: 40px;
+}
+
+
+.work2-part2{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    /* border-bottom: 2px solid black; */
 }
